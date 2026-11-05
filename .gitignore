@@ -1,0 +1,30 @@
+# ── Virtual environment ────────────────────────────────────────────
+venv/
+.venv/
+env/
+ 
+.env
+
+*.db
+*.sqlite
+*.sqlite3
+ 
+# ── Flask / Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+instance/
+.flask_session/
+text.txt
+ 
+# ── OS clutter ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# ── Editor / IDE ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+ 
